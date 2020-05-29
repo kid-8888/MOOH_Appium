@@ -25,13 +25,13 @@ class StartAction:
     #
     #
     # # 向上滑动屏幕
-    def swipe_up(self, n=1, t=500):
-        l = self.driver.get_window_size()
-        x1 = l['width'] * 0.5
-        y1 = l['height'] * 0.75
-        y = l['height'] * 0.25
-        for i in range(n):
-            self.driver.swipe(x1, y1, x1, y, t)
+    # def swipe_up(self, n=1, t=500):
+    #     l = self.driver.get_window_size()
+    #     x1 = l['width'] * 0.5
+    #     y1 = l['height'] * 0.75
+    #     y = l['height'] * 0.25
+    #     for i in range(n):
+    #         self.driver.swipe(x1, y1, x1, y, t)
     #
     #
     # # 向上滑动屏幕

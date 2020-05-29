@@ -13,8 +13,8 @@ class BaseDriver:
             "appPackage": "com.showfires.im",
             "appActivity": "com.showfires.uesr.activity.SplashActivity",
             "noReset": "true",
-            # "unicodeKeyboard": "true",
-            # "resetKeyboard": "true"
+            "unicodeKeyboard": "true",
+            "resetKeyboard": "true"
         }
         # 驱动
         driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)

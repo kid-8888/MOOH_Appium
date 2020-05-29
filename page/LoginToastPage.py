@@ -29,7 +29,13 @@ class FindToast:
     def login_button_action(self):
         self.driver.find_element(*self.login_button).click()
 
-    def errorlogin(self, un="a123456", pw="a123456"):
+    def error_username(self, un="a12345", pw="a1234567"):
+        self.un_clear_action()
+        self.un_enter_action(un)
+        self.pw_enter_action(pw)
+        self.login_button_action()
+
+    def error_password(self, un="a123456", pw="a123456"):
         self.un_clear_action()
         self.un_enter_action(un)
         self.pw_enter_action(pw)
@@ -43,3 +49,4 @@ class FindToast:
             e.click()
         except:
             pass
+
