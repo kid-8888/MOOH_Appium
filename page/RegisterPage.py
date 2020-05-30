@@ -41,7 +41,7 @@ class Register:
     def password_confirm_enter_action(self, pw1):
         self.driver.find_element(*self.password_confirm_enter).send_keys(pw1)
 
-    # 密码输入界面下一步按钮
+    # 密码输入界面【下一步】
     def password_next_button_action(self):
         self.driver.find_element(*self.password_next_button).click()
 
@@ -63,7 +63,7 @@ class Register:
 
     def get_toast(self, appium_driver):
         sleep(1)
-        toast_ele = ("xpath", "//*[@text='用户名支持英文,数字,下划线,且在6-12个字符之间']")
+        toast_ele = ("xpath", "//*[@text='用户名支持英文，数字，下划线，且在6-12个字符之间']")
         try:
             e = WebDriverWait(appium_driver, 5, 0.1).until(EC.presence_of_element_located(toast_ele))
             e.click()
@@ -71,33 +71,23 @@ class Register:
             pass
 
     # 用户名少于6位
-    def register_login1(self,un="a1234", pw="a1234567", pw1="a1234567"):
+    def register_login1(self, un="a1234"):
         self.register_button_action()
         sleep(2)
         try:
             self.username_enter_action(un)
         except NameError as e:
-            pass
+            return
         self.username_next_button_action()
         sleep(2)
-        self.password_enter_action(pw)
-        self.password_confirm_enter_action(pw1)
-        self.password_next_button_action()
-        sleep(2)
-        self.skip_button_action()
 
     # 用户名大于15位
-    def register_login2(self, un="a1234512345678", pw="a1234567", pw1="a1234567"):
+    def register_login2(self, un="a1234512345678"):
         self.register_button_action()
         sleep(2)
         try:
             self.username_enter_action(un)
         except NameError as e:
-            pass
+            return
         self.username_next_button_action()
         sleep(2)
-        self.password_enter_action(pw)
-        self.password_confirm_enter_action(pw1)
-        self.password_next_button_action()
-        sleep(2)
-        self.skip_button_action()

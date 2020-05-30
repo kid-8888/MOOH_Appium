@@ -26,7 +26,7 @@ class ContactsList:
         self.driver.find_element(*self.talk_button).click()
 
     def talk_action(self):
-        sleep(5)
+        sleep(10)
         self.contacts_button_action()
         sleep(5)
         self.friend_list_action()
