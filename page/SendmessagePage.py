@@ -5,6 +5,8 @@ from time import sleep
 from appium import webdriver
 from selenium.webdriver.common.by import By
 
+from page.ContactsPage import ContactsList
+
 
 class SendMessage:
     send_element = (By.ID, "com.showfires.im:id/send_input_ed")
@@ -22,6 +24,9 @@ class SendMessage:
         self.driver.find_element(*self.send_msg_bt).click()
 
     def send_message(self):
+        CL = ContactsList(self.driver)
+        sleep(2)
+        CL.talk_action()
         sleep(2)
         self.send_element_action()
         sleep(2)

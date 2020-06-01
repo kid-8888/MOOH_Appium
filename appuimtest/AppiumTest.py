@@ -2,10 +2,10 @@
 # -*- coding:UTF-8 -*-
 import unittest
 
-from page.ContactsPage import ContactsList
 from page.DriverPage import BaseDriver
 from page.LoginPage import LoginHoom
 from page.RegisterPage import Register
+from page.ReplyMessagePage import ReplyMessage
 from page.SendmessagePage import SendMessage
 from page.LoginToastPage import FindToast
 
@@ -52,10 +52,13 @@ class CaseTest(unittest.TestCase):
 
     # 从通讯录进入给好友发送消息
     def test_7_send_message(self):
-        CL = ContactsList(self.driver)
-        CL.talk_action()
         SM = SendMessage(self.driver)
         SM.send_message()
+
+    # 回复聊天页面的消息
+    def test_8_reply(self):
+        RM = ReplyMessage(self.driver)
+        RM.reply_message()
 
 
 if __name__ == "__main__":

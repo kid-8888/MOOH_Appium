@@ -72,6 +72,7 @@ class Register:
 
     # 用户名少于6位
     def register_login1(self, un="a1234"):
+        sleep(2)
         self.register_button_action()
         sleep(2)
         try:
@@ -83,6 +84,7 @@ class Register:
 
     # 用户名大于15位
     def register_login2(self, un="a1234512345678"):
+        sleep(2)
         self.register_button_action()
         sleep(2)
         try:

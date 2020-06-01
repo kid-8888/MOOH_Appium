@@ -16,19 +16,22 @@ class ContactsList:
         self.driver = appium_driver
         # self.driver = webdriver.Remote()
 
+    # 点击【通讯录】
     def contacts_button_action(self):
         self.driver.find_element(*self.contacts_button).click()
 
+    # 点击好友列表
     def friend_list_action(self):
         self.driver.find_element(*self.friend_list).click()
 
+    # 点击【对话】
     def talk_button_action(self):
         self.driver.find_element(*self.talk_button).click()
 
     def talk_action(self):
-        sleep(10)
+        sleep(2)
         self.contacts_button_action()
-        sleep(5)
+        sleep(2)
         self.friend_list_action()
-        sleep(5)
+        sleep(2)
         self.talk_button_action()

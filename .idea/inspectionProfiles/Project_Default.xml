@@ -1,0 +1,20 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="sign.views.HttpResponseReddirect" />
+          <option value="AppiumTest.Appium_test.MobileElement" />
+          <option value="AppiumTest.Appium_test.sleep" />
+          <option value="AppiumTest.Appium_test.Start_HOOM" />
+          <option value="AppiumTest.AppiumTest.StartHOOMUint" />
+          <option value="AppiumTest.AppiumTest.HoomPageUint" />
+          <option value="AppiumTest.AppiumTest.StartHOOM" />
+          <option value="AppiumTest.AppiumTest.driver" />
+          <option value="AppiumTest.AppiumTest.StartHoom" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
