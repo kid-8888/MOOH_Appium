@@ -10,8 +10,15 @@ from page.SendmessagePage import SendMessage
 
 
 class ReplyMessage:
-
-    chat_ele = (By.ID, "com.showfires.im:id/chat_info_layout_out")
+    # 回复文本
+    chat_text_ele = (By.ID, "com.showfires.im:id/chat_info_layout_out")
+    # 回复图片
+    chat_picture_ele = (By.ID, "com.showfires.im:id/chat_picture_img")
+    # 回复语音
+    chat_voice_ele = (By.ID, "com.showfires.im:id/chat_voice_anim_layout")
+    # 回复文件
+    chat_file_ele = (By.ID, "com.showfires.im:id/chat_file_layout")
+    # 点击菜单栏中回复
     reply_ele = (By.XPATH, "//*[@text='回复']")
 
     def __init__(self, appium_driver):
@@ -19,9 +26,12 @@ class ReplyMessage:
         # self.driver = webdriver.Remote()
 
     # 定位文本内容
-    def chat_ele_action(self):
-        el = self.driver.find_elements(*self.chat_ele)
+    def chat_text_ele_action(self):
+        el = self.driver.find_elements(*self.chat_text_ele)
         TouchAction(self.driver).long_press(el[0]).wait(3000).perform()
+
+    # def chat_voice_ele_action(self):
+
 
     # 点击菜单栏中的【回复】
     def reply_ele_action(self):
@@ -38,7 +48,7 @@ class ReplyMessage:
         SM.send_element_action()
         SM.send_msg_bt_action()
         sleep(2)
-        self.chat_ele_action()
+        self.chat_text_ele_action()
         sleep(2)
         self.reply_ele_action()
         sleep(2)

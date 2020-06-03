@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="705ca91b-e3b9-4395-89f5-cafae30f8014" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/ReplyMessagePage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appuimtest/AppiumTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/appuimtest/AppiumTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/ContactsPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/ContactsPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/RegisterPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/RegisterPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/ReplyMessagePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/ReplyMessagePage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/SendmessagePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/SendmessagePage.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
