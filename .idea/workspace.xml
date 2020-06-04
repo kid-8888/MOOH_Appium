@@ -42,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for AppiumTest.CaseTest.test_8_reply">
+  <component name="RunManager" selected="Python tests.Unittests for AppiumTest.CaseTest.test_7_send_message">
     <configuration name="ReplyMessagePage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MOOH_Appium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,8 +123,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for AppiumTest.CaseTest.test_8_reply" />
         <item itemvalue="Python tests.Unittests for AppiumTest.CaseTest.test_7_send_message" />
+        <item itemvalue="Python tests.Unittests for AppiumTest.CaseTest.test_8_reply" />
         <item itemvalue="Python.ReplyMessagePage" />
         <item itemvalue="Python tests.Unittests for AppiumTest.CaseTest" />
         <item itemvalue="Python tests.Unittests for AppiumTest.CaseTest.test_3_username_unqualified1" />

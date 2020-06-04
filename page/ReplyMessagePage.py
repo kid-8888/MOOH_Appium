@@ -30,8 +30,20 @@ class ReplyMessage:
         el = self.driver.find_elements(*self.chat_text_ele)
         TouchAction(self.driver).long_press(el[0]).wait(3000).perform()
 
-    # def chat_voice_ele_action(self):
+    # 定位语音
+    def chat_voice_ele_action(self):
+        el = self.driver.find_elements(*self.chat_voice_ele)
+        TouchAction(self.driver).long_press(el[0]).wait(3000).perform()
 
+    # 定位图片
+    def chat_picture_ele_action(self):
+        el = self.driver.find_elements(*self.chat_picture_ele)
+        TouchAction(self.driver).long_press(el[0]).wait(3000).perform()
+
+    # 定位文件
+    def chat_file_ele_action(self):
+        el = self.driver.find_elements(*self.chat_file_ele)
+        TouchAction(self.driver).long_press(el[0]).wait(3000).perform()
 
     # 点击菜单栏中的【回复】
     def reply_ele_action(self):
@@ -45,13 +57,13 @@ class ReplyMessage:
         sleep(2)
         SM = SendMessage(self.driver)
         sleep(2)
-        SM.send_element_action()
+        SM.send_text_element_action()
         SM.send_msg_bt_action()
         sleep(2)
         self.chat_text_ele_action()
         sleep(2)
         self.reply_ele_action()
         sleep(2)
-        SM.send_element_action()
+        SM.send_text_element_action()
         SM.send_msg_bt_action()
 
