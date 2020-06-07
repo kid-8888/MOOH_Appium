@@ -32,7 +32,7 @@ class ContactsList:
     # 滑动页面
     def scroll(self):
         size = self.driver.get_window_size()
-        for i in range(3):
+        for i in range(4):
             TouchAction(self.driver) \
                 .long_press(x=size['width'] * 0.5, y=size['height'] * 0.8) \
                 .move_to(x=size['width'] * 0.5, y=size['height'] * 0.2) \

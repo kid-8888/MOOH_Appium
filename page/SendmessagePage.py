@@ -14,7 +14,6 @@ class SendMessage:
     # 发送按钮
     send_msg_bt = (By.ID, "com.showfires.im:id/send_msg_bt")
 
-
     # 发送图片
     send_picture_element = (By.ID, "com.showfires.im:id/chat_picture_img")
     # 更多按钮
@@ -26,17 +25,14 @@ class SendMessage:
     # 图片选择完成
     picture_tv_ok = (By.ID, "com.showfires.im:id/picture_tv_ok")
 
-
     # 发送语音
+    permission_button = (By.ID, "com.android.packageinstaller:id/permission_allow_button")
     send_voice_element = (By.ID, "com.showfires.im:id/send_voice_img")
     send_voice_button_ele = (By.ID, "com.showfires.im:id/send_voice_bt")
 
-
-
-
-
     # 文件按钮
-    file_button = (By.XPATH, "//*[@text='文件']")
+    more_ele1 = (By.ID, "com.showfires.im:id/send_more_img")
+    file_button = (By.ID,  "com.showfires.im:id/select_file")
 
     def __init__(self, appium_driver):
         self.driver = appium_driver
@@ -44,7 +40,7 @@ class SendMessage:
 
     # 发送文本
     def send_text_element_action(self):
-        value = str(randint(1, 99))
+        value = str(randint(1, 99)) + u"测试"
         self.driver.find_element(*self.send_text_element).send_keys(value)
 
     def send_msg_bt_action(self):
@@ -65,6 +61,11 @@ class SendMessage:
         self.driver.find_element(*self.send_voice_element).click()
         ele = self.driver.find_element(*self.send_voice_button_ele)
         TouchAction(self.driver).long_press(ele).wait(8000).release().perform()
+
+    # 发送文件
+    def send_file_element_action(self):
+        self.driver.find_element(*self.more_ele1).click()
+        self.driver.find_element(*self.file_button).click()
 
     def send_message(self):
         CL = ContactsList(self.driver)

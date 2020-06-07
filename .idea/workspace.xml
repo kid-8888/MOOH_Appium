@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="705ca91b-e3b9-4395-89f5-cafae30f8014" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appuimtest/AppiumTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/appuimtest/TestCase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/ContactsPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/ContactsPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/StartPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/StartPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/ReplyMessagePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/ReplyMessagePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/SendmessagePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/SendmessagePage.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,50 +16,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page/SendmessagePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/LogoutPage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="246">
+              <caret line="50" column="56" lean-forward="true" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
               <folding>
-                <element signature="e#42#64#0" expanded="true" />
+                <element signature="e#42#68#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page/StartPage.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/ReplyMessagePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+            <state relative-caret-position="-76">
+              <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/LoginToastPage.py">
+        <entry file="file://$PROJECT_DIR$/appuimtest/TestCase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="47" column="43" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appuimtest/AppiumTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+            <state relative-caret-position="75">
+              <caret line="58" column="12" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
               <folding>
                 <element signature="e#42#57#0" expanded="true" />
               </folding>
@@ -66,52 +50,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appuimtest/AppiumTestFirst.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/DriverPage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding>
-                <element signature="e#42#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/DriverPageFirst.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/LoginPage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="28" column="60" lean-forward="true" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-              <folding>
-                <element signature="e#42#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page/ContactsPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+            <state relative-caret-position="251">
+              <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -131,16 +73,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/appuimtest/AppiumTest.py" />
         <option value="$PROJECT_DIR$/page/LoginPage.py" />
-        <option value="$PROJECT_DIR$/page/ContactsPage.py" />
         <option value="$PROJECT_DIR$/page/StartPage.py" />
+        <option value="$PROJECT_DIR$/appuimtest/AppiumTest.py" />
+        <option value="$PROJECT_DIR$/page/ReplyMessagePage.py" />
+        <option value="$PROJECT_DIR$/page/ContactsPage.py" />
+        <option value="$PROJECT_DIR$/page/SendmessagePage.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="221" />
-    <option name="y" value="4" />
+    <option name="x" value="148" />
+    <option name="y" value="9" />
     <option name="width" value="1073" />
     <option name="height" value="688" />
   </component>
@@ -193,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for AppiumTest.CaseTest.test_7_send_message">
+  <component name="RunManager" selected="Python tests.Unittests for TestCase.CaseTest.test_8_reply">
     <configuration name="LoginPage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MOOH_Appium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,7 +160,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for AppiumTest.CaseTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for TestCase.CaseTest.test_8_reply" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MOOH_Appium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,11 +171,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;AppiumTest.CaseTest&quot;" />
+      <option name="_new_target" value="&quot;TestCase.CaseTest.test_8_reply&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for AppiumTest.CaseTest.test_6_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for appuimtest.TestCase.CaseTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MOOH_Appium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,11 +186,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;AppiumTest.CaseTest.test_6_login&quot;" />
+      <option name="_new_target" value="&quot;appuimtest.TestCase.CaseTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for AppiumTest.CaseTest.test_7_send_message" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for appuimtest.TestCase.CaseTest.test_6_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MOOH_Appium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,11 +201,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;AppiumTest.CaseTest.test_7_send_message&quot;" />
+      <option name="_new_target" value="&quot;appuimtest.TestCase.CaseTest.test_6_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for AppiumTest.CaseTest.test_8_reply" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for appuimtest.TestCase.CaseTest.test_7_send_message" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MOOH_Appium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,17 +216,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;AppiumTest.CaseTest.test_8_reply&quot;" />
+      <option name="_new_target" value="&quot;appuimtest.TestCase.CaseTest.test_7_send_message&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for AppiumTest.CaseTest.test_7_send_message" />
-        <item itemvalue="Python tests.Unittests for AppiumTest.CaseTest.test_6_login" />
+        <item itemvalue="Python tests.Unittests for TestCase.CaseTest.test_8_reply" />
+        <item itemvalue="Python tests.Unittests for appuimtest.TestCase.CaseTest.test_7_send_message" />
+        <item itemvalue="Python tests.Unittests for appuimtest.TestCase.CaseTest.test_6_login" />
         <item itemvalue="Python.LoginPage" />
-        <item itemvalue="Python tests.Unittests for AppiumTest.CaseTest" />
-        <item itemvalue="Python tests.Unittests for AppiumTest.CaseTest.test_8_reply" />
+        <item itemvalue="Python tests.Unittests for appuimtest.TestCase.CaseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -302,47 +246,47 @@
       <workItem from="1591336789415" duration="2345000" />
       <workItem from="1591414137577" duration="10424000" />
       <workItem from="1591437347266" duration="3049000" />
-      <workItem from="1591520346146" duration="222000" />
+      <workItem from="1591520346146" duration="6201000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_6_login - 2020.06.06 at 16h 55m 50s.xml">
+    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_7_send_message - 2020.06.07 at 18h 15m 34s.xml">
+      <configuration name="Unittests for AppiumTest.CaseTest.test_7_send_message" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_7_send_message - 2020.06.07 at 18h 16m 58s.xml">
+      <configuration name="Unittests for AppiumTest.CaseTest.test_7_send_message" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_6_login - 2020.06.07 at 18h 17m 53s.xml">
       <configuration name="Unittests for AppiumTest.CaseTest.test_6_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_6_login - 2020.06.06 at 16h 57m 49s.xml">
+    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_7_send_message - 2020.06.07 at 18h 20m 03s.xml">
+      <configuration name="Unittests for AppiumTest.CaseTest.test_7_send_message" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_7_send_message - 2020.06.07 at 18h 25m 39s.xml">
+      <configuration name="Unittests for AppiumTest.CaseTest.test_7_send_message" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_6_login - 2020.06.07 at 18h 26m 12s.xml">
       <configuration name="Unittests for AppiumTest.CaseTest.test_6_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_7_send_message - 2020.06.06 at 18h 05m 10s.xml">
+    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_7_send_message - 2020.06.07 at 18h 27m 12s.xml">
       <configuration name="Unittests for AppiumTest.CaseTest.test_7_send_message" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_7_send_message - 2020.06.06 at 18h 06m 42s.xml">
+    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_7_send_message - 2020.06.07 at 18h 30m 58s.xml">
       <configuration name="Unittests for AppiumTest.CaseTest.test_7_send_message" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_7_send_message - 2020.06.06 at 18h 07m 58s.xml">
-      <configuration name="Unittests for AppiumTest.CaseTest.test_7_send_message" configurationId="tests" />
+    <history-entry file="Unittests_for_TestCase_CaseTest_test_8_reply - 2020.06.07 at 18h 39m 50s.xml">
+      <configuration name="Unittests for TestCase.CaseTest.test_8_reply" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_7_send_message - 2020.06.06 at 18h 13m 04s.xml">
-      <configuration name="Unittests for AppiumTest.CaseTest.test_7_send_message" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_6_login - 2020.06.06 at 18h 14m 43s.xml">
-      <configuration name="Unittests for AppiumTest.CaseTest.test_6_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_7_send_message - 2020.06.06 at 18h 15m 42s.xml">
-      <configuration name="Unittests for AppiumTest.CaseTest.test_7_send_message" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_7_send_message - 2020.06.06 at 18h 17m 17s.xml">
-      <configuration name="Unittests for AppiumTest.CaseTest.test_7_send_message" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_7_send_message - 2020.06.06 at 18h 18m 21s.xml">
-      <configuration name="Unittests for AppiumTest.CaseTest.test_7_send_message" configurationId="tests" />
+    <history-entry file="Unittests_for_TestCase_CaseTest_test_8_reply - 2020.06.07 at 18h 44m 12s.xml">
+      <configuration name="Unittests for TestCase.CaseTest.test_8_reply" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29005000" />
+    <option name="totallyTimeSpent" value="34984000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="221" y="4" width="1073" height="688" extended-state="0" />
+    <frame x="148" y="9" width="1073" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26949653" />
@@ -350,7 +294,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -407,20 +351,14 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MOOH_Appium$Unittests_for_AppiumTest_CaseTest_test_7_talk.coverage" NAME="Unittests for AppiumTest.CaseTest.test_7_talk Coverage Results" MODIFIED="1590821461033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appuimtest" />
     <SUITE FILE_PATH="coverage/MOOH_Appium$Unittests_for_AppiumTest_CaseTest.coverage" NAME="Unittests for AppiumTest.CaseTest Coverage Results" MODIFIED="1591341623995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appuimtest" />
-    <SUITE FILE_PATH="coverage/MOOH_Appium$Unittests_for_AppiumTest_CaseTest_test_6_login.coverage" NAME="Unittests for AppiumTest.CaseTest.test_6_login Coverage Results" MODIFIED="1591438458101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appuimtest" />
-    <SUITE FILE_PATH="coverage/MOOH_Appium$Unittests_for_AppiumTest_CaseTest_test_7_send_message.coverage" NAME="Unittests for AppiumTest.CaseTest.test_7_send_message Coverage Results" MODIFIED="1591438648309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appuimtest" />
+    <SUITE FILE_PATH="coverage/MOOH_Appium$Unittests_for_AppiumTest_CaseTest_test_6_login.coverage" NAME="Unittests for AppiumTest.CaseTest.test_6_login Coverage Results" MODIFIED="1591525545021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appuimtest" />
+    <SUITE FILE_PATH="coverage/MOOH_Appium$Unittests_for_AppiumTest_CaseTest_test_7_send_message.coverage" NAME="Unittests for AppiumTest.CaseTest.test_7_send_message Coverage Results" MODIFIED="1591525780899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appuimtest" />
     <SUITE FILE_PATH="coverage/MOOH_Appium$Unittests_for_AppiumTest_CaseTest_test_8_send_message.coverage" NAME="Unittests for AppiumTest.CaseTest.test_8_send_message Coverage Results" MODIFIED="1590811662912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appuimtest" />
+    <SUITE FILE_PATH="coverage/MOOH_Appium$Unittests_for_TestCase_CaseTest_test_8_reply.coverage" NAME="Unittests for TestCase.CaseTest.test_8_reply Coverage Results" MODIFIED="1591526561085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appuimtest" />
     <SUITE FILE_PATH="coverage/MOOH_Appium$Unittests_for_AppiumTest_CaseTest_test_2_username_unqualified.coverage" NAME="Unittests for AppiumTest.CaseTest.test_2_username_unqualified Coverage Results" MODIFIED="1590812126053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appuimtest" />
     <SUITE FILE_PATH="coverage/MOOH_Appium$LoginPage.coverage" NAME="LoginPage Coverage Results" MODIFIED="1591433710758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/page/ReplyMessagePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -428,44 +366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/RegisterPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="77" column="12" lean-forward="true" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/SendmessagePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/LoginToastPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="47" column="43" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appuimtest/AppiumTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding>
-            <element signature="e#42#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appuimtest/AppiumTestFirst.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -479,33 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/LogoutPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#42#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/ContactsPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/DriverPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#42#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/DriverPageFirst.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -513,10 +386,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/appuimtest/AppiumTestFirst.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/python37/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="610" selection-start-line="610" selection-end-line="610" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/page/StartPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        <state relative-caret-position="608">
+          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/RegisterPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="77" column="12" lean-forward="true" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/LogoutPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#42#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/LoginToastPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/DriverPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#42#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appuimtest/TestCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="58" column="12" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+          <folding>
+            <element signature="e#42#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/ContactsPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/ReplyMessagePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/SendmessagePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="50" column="56" lean-forward="true" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+          <folding>
+            <element signature="e#42#68#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
