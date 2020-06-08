@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="705ca91b-e3b9-4395-89f5-cafae30f8014" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appuimtest/TestCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/appuimtest/TestCase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/ReplyMessagePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/ReplyMessagePage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/TransmitMessagePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/TransmitMessagePage.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,27 +43,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for TestCase.CaseTest.test_8_reply">
-    <configuration name="LoginPage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for TestCase.CaseTest">
+    <configuration name="Unittests for TestCase.CaseTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MOOH_Appium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appuimtest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page/LoginPage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestCase.CaseTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for TestCase.CaseTest.test_2_username_unqualified" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="MOOH_Appium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appuimtest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestCase.CaseTest.test_2_username_unqualified&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for TestCase.CaseTest.test_8_reply" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -79,7 +87,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for appuimtest.TestCase.CaseTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for TestCase.CaseTest.test_9_transmit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MOOH_Appium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,24 +96,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;appuimtest.TestCase.CaseTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for appuimtest.TestCase.CaseTest.test_6_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="MOOH_Appium" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appuimtest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;appuimtest.TestCase.CaseTest.test_6_login&quot;" />
+      <option name="_new_target" value="&quot;TestCase.CaseTest.test_9_transmit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -126,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for TestCase.CaseTest" />
+        <item itemvalue="Python tests.Unittests for TestCase.CaseTest.test_2_username_unqualified" />
+        <item itemvalue="Python tests.Unittests for TestCase.CaseTest.test_9_transmit" />
         <item itemvalue="Python tests.Unittests for TestCase.CaseTest.test_8_reply" />
         <item itemvalue="Python tests.Unittests for appuimtest.TestCase.CaseTest.test_7_send_message" />
-        <item itemvalue="Python tests.Unittests for appuimtest.TestCase.CaseTest.test_6_login" />
-        <item itemvalue="Python.LoginPage" />
-        <item itemvalue="Python tests.Unittests for appuimtest.TestCase.CaseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -153,38 +145,6 @@
       <workItem from="1591520346146" duration="7908000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_7_send_message - 2020.06.07 at 18h 15m 34s.xml">
-      <configuration name="Unittests for AppiumTest.CaseTest.test_7_send_message" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_7_send_message - 2020.06.07 at 18h 16m 58s.xml">
-      <configuration name="Unittests for AppiumTest.CaseTest.test_7_send_message" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_6_login - 2020.06.07 at 18h 17m 53s.xml">
-      <configuration name="Unittests for AppiumTest.CaseTest.test_6_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_7_send_message - 2020.06.07 at 18h 20m 03s.xml">
-      <configuration name="Unittests for AppiumTest.CaseTest.test_7_send_message" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_7_send_message - 2020.06.07 at 18h 25m 39s.xml">
-      <configuration name="Unittests for AppiumTest.CaseTest.test_7_send_message" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_6_login - 2020.06.07 at 18h 26m 12s.xml">
-      <configuration name="Unittests for AppiumTest.CaseTest.test_6_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_7_send_message - 2020.06.07 at 18h 27m 12s.xml">
-      <configuration name="Unittests for AppiumTest.CaseTest.test_7_send_message" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_AppiumTest_CaseTest_test_7_send_message - 2020.06.07 at 18h 30m 58s.xml">
-      <configuration name="Unittests for AppiumTest.CaseTest.test_7_send_message" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_TestCase_CaseTest_test_8_reply - 2020.06.07 at 18h 39m 50s.xml">
-      <configuration name="Unittests for TestCase.CaseTest.test_8_reply" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_TestCase_CaseTest_test_8_reply - 2020.06.07 at 18h 44m 12s.xml">
-      <configuration name="Unittests for TestCase.CaseTest.test_8_reply" configurationId="tests" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="36691000" />

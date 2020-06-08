@@ -26,22 +26,22 @@ class ReplyMessage:
         # self.driver = webdriver.Remote()
 
     # 定位文本内容
-    def chat_text_ele_action(self):
+    def positioning_text_ele_action(self):
         el = self.driver.find_elements(*self.chat_text_ele)
         TouchAction(self.driver).long_press(el[0]).wait(3000).perform()
 
     # 定位语音
-    def chat_voice_ele_action(self):
+    def positioning_voice_ele_action(self):
         el = self.driver.find_elements(*self.chat_voice_ele)
         TouchAction(self.driver).long_press(el[0]).wait(3000).perform()
 
     # 定位图片
-    def chat_picture_ele_action(self):
+    def positioning_picture_ele_action(self):
         el = self.driver.find_elements(*self.chat_picture_ele)
         TouchAction(self.driver).long_press(el[0]).wait(3000).perform()
 
     # 定位文件
-    def chat_file_ele_action(self):
+    def positioning_file_ele_action(self):
         el = self.driver.find_elements(*self.chat_file_ele)
         TouchAction(self.driver).long_press(el[0]).wait(3000).perform()
 
@@ -54,7 +54,7 @@ class ReplyMessage:
         sleep(2)
         CL.talk_action()
         sleep(5)
-        self.chat_text_ele_action()
+        self.positioning_text_ele_action()
         sleep(2)
         self.reply_ele_action()
         sleep(2)
@@ -63,7 +63,7 @@ class ReplyMessage:
         SM.send_msg_bt_action()
         sleep(2)
 
-        self.chat_picture_ele_action()
+        self.positioning_picture_ele_action()
         sleep(2)
         self.reply_ele_action()
         sleep(2)
@@ -72,7 +72,7 @@ class ReplyMessage:
         SM.send_msg_bt_action()
         sleep(2)
 
-        self.chat_voice_ele_action()
+        self.positioning_voice_ele_action()
         sleep(2)
         self.reply_ele_action()
         sleep(2)

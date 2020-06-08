@@ -8,6 +8,7 @@ from page.RegisterPage import Register
 from page.ReplyMessagePage import ReplyMessage
 from page.SendmessagePage import SendMessage
 from page.LoginToastPage import FindToast
+from page.TransmitMessagePage import TransmitMessage
 
 
 class CaseTest(unittest.TestCase):
@@ -60,6 +61,10 @@ class CaseTest(unittest.TestCase):
         RM = ReplyMessage(self.driver)
         RM.reply_message()
 
+    def test_9_transmit(self):
+        TM= TransmitMessage(self.driver)
+        TM.transmit_message()
+        TM.get_toast(self.driver)
 
 if __name__ == "__main__":
     unittest.main()
