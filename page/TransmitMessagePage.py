@@ -36,28 +36,26 @@ class TransmitMessage:
 
     # 转发图片
     def transmit_picture_ele_action(self):
-        el = self.driver.find_elements(*self.transmit_text_ele)
+        el = self.driver.find_elements(*self.transmit_picture_ele)
         TouchAction(self.driver).long_press(el[0]).wait(3000).perform()
 
     # 转发语音
     def transmit_voice_ele_action(self):
-        el = self.driver.find_elements(*self.transmit_text_ele)
+        el = self.driver.find_elements(*self.transmit_voice_ele)
         TouchAction(self.driver).long_press(el[0]).wait(3000).perform()
 
     # 转发文件
     def transmit_file_ele_action(self):
-        el = self.driver.find_elements(*self.transmit_text_ele)
+        el = self.driver.find_elements(*self.transmit_file_ele)
         TouchAction(self.driver).long_press(el[0]).wait(3000).perform()
 
     # 转发按钮
     def transmit_ele_action(self):
-        self.driver.find_element(*self.transmit_ele).click()
+        self.driver.find_element(*self.transmit_ele)
 
     # 选择成员
     def transmit_select_action(self):
-        ele = self.driver.find_elements(*self.transmit_select)
-        # print(ele)
-        ele[2].click()
+        self.driver.find_element(*self.transmit_select).click()
 
     # 里面的【转发】
     def transmit_action(self):
@@ -69,8 +67,11 @@ class TransmitMessage:
         CL.talk_action()
         sleep(2)
         self.transmit_text_ele_action()
+        sleep(10)
         self.transmit_ele_action()
+        sleep(5)
         self.transmit_select_action()
+        sleep(2)
         self.transmit_action()
 
     def get_toast(self, appium_driver):

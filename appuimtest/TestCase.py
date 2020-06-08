@@ -66,5 +66,6 @@ class CaseTest(unittest.TestCase):
         TM.transmit_message()
         TM.get_toast(self.driver)
 
+
 if __name__ == "__main__":
     unittest.main()
