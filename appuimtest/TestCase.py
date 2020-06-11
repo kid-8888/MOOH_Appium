@@ -62,7 +62,7 @@ class CaseTest(unittest.TestCase):
         RM.reply_message()
 
     def test_9_transmit(self):
-        TM= TransmitMessage(self.driver)
+        TM = TransmitMessage(self.driver)
         TM.transmit_message()
         TM.get_toast(self.driver)
 

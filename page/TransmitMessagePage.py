@@ -21,7 +21,7 @@ class TransmitMessage:
     # 点击菜单栏中转发
     transmit_ele = (By.XPATH, "//*[@text='转发']")
     # 选择成员
-    transmit_select = (By.ID, "com.showfires.im:id/contacts_check")
+    transmit_select = (By.CLASS_NAME, "android.widget.FrameLayout")
     # 确认转发
     tv_transmit = (By.ID, "com.showfires.im:id/tv_transmit")
 
@@ -36,26 +36,28 @@ class TransmitMessage:
 
     # 转发图片
     def transmit_picture_ele_action(self):
-        el = self.driver.find_elements(*self.transmit_picture_ele)
+        el = self.driver.find_elements(*self.transmit_text_ele)
         TouchAction(self.driver).long_press(el[0]).wait(3000).perform()
 
     # 转发语音
     def transmit_voice_ele_action(self):
-        el = self.driver.find_elements(*self.transmit_voice_ele)
+        el = self.driver.find_elements(*self.transmit_text_ele)
         TouchAction(self.driver).long_press(el[0]).wait(3000).perform()
 
     # 转发文件
     def transmit_file_ele_action(self):
-        el = self.driver.find_elements(*self.transmit_file_ele)
+        el = self.driver.find_elements(*self.transmit_text_ele)
         TouchAction(self.driver).long_press(el[0]).wait(3000).perform()
 
     # 转发按钮
     def transmit_ele_action(self):
-        self.driver.find_element(*self.transmit_ele)
+        self.driver.find_element(*self.transmit_ele).click()
 
     # 选择成员
     def transmit_select_action(self):
-        self.driver.find_element(*self.transmit_select).click()
+        for i in range(1, 6):
+            ele = self.driver.find_elements(*self.transmit_select)
+            ele[i].click()
 
     # 里面的【转发】
     def transmit_action(self):
@@ -67,7 +69,6 @@ class TransmitMessage:
         CL.talk_action()
         sleep(2)
         self.transmit_text_ele_action()
-        sleep(10)
         self.transmit_ele_action()
         sleep(5)
         self.transmit_select_action()
@@ -82,3 +83,6 @@ class TransmitMessage:
             e.click()
         except:
             pass
+        # assert "转发成功" in
+
+
