@@ -61,6 +61,7 @@ class CaseTest(unittest.TestCase):
         RM = ReplyMessage(self.driver)
         RM.reply_message()
 
+    # 转发聊天页面的消息
     def test_9_transmit(self):
         TM = TransmitMessage(self.driver)
         TM.transmit_message()

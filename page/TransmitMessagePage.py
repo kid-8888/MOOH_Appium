@@ -9,6 +9,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from page.ContactsPage import ContactsList
 from selenium.webdriver.support import expected_conditions as EC
 
+
 class TransmitMessage:
     # 回复文本
     transmit_text_ele = (By.ID, "com.showfires.im:id/chat_info_layout_out")
@@ -21,7 +22,7 @@ class TransmitMessage:
     # 点击菜单栏中转发
     transmit_ele = (By.XPATH, "//*[@text='转发']")
     # 选择成员
-    transmit_select = (By.CLASS_NAME, "android.widget.FrameLayout")
+    transmit_select = (By.XPATH, "//*[@resource-id='com.showfires.im:id/recyclerview']/android.widget.RelativeLayout")
     # 确认转发
     tv_transmit = (By.ID, "com.showfires.im:id/tv_transmit")
 
@@ -57,6 +58,7 @@ class TransmitMessage:
     def transmit_select_action(self):
         for i in range(1, 6):
             ele = self.driver.find_elements(*self.transmit_select)
+            print(ele)
             ele[i].click()
 
     # 里面的【转发】
@@ -72,7 +74,7 @@ class TransmitMessage:
         self.transmit_ele_action()
         sleep(5)
         self.transmit_select_action()
-        sleep(2)
+        sleep(5)
         self.transmit_action()
 
     def get_toast(self, appium_driver):
