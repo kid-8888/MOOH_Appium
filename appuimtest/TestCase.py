@@ -2,6 +2,7 @@
 # -*- coding:UTF-8 -*-
 import unittest
 
+from page.DeletePage import DeleteMessage
 from page.DriverPage import BaseDriver
 from page.LoginPage import LoginHoom
 from page.RegisterPage import Register
@@ -66,6 +67,10 @@ class CaseTest(unittest.TestCase):
         TM = TransmitMessage(self.driver)
         TM.transmit_message()
         TM.get_toast(self.driver)
+
+    def test_10_delete(self):
+        DM = DeleteMessage(self.driver)
+        DM.delete_message()
 
 
 if __name__ == "__main__":
