@@ -1,7 +1,6 @@
 # !/usr/bin/python
 # -*- coding:UTF-8 -*e
 from time import sleep
-
 from selenium.webdriver.common.by import By
 from appium.webdriver.common.touch_action import TouchAction
 
@@ -18,7 +17,7 @@ class DeleteMessage:
     # 删除文件
     delete_file_ele = (By.ID, "com.showfires.im:id/chat_file_layout")
     # 删除按钮
-    delete_ele = (By.XPATH, "//*[@text='删除'']")
+    delete_ele = (By.XPATH, "//*[@text='删除']")
     # 删除消息
     delete_button_ele = (By.ID, "com.showfires.im:id/chat_transmit_delete_tv")
     # 二次确认弹窗
@@ -48,10 +47,11 @@ class DeleteMessage:
         el = self.driver.find_elements(*self.delete_text_ele)
         TouchAction(self.driver).long_press(el[0]).wait(3000).perform()
 
+    # 点击菜单栏中【删除】
     def delete_action(self):
-        self.driver.find_element(*self.delete_ele)
+        self.driver.find_element(*self.delete_ele).click()
 
-    # 点击删除
+    # 点击【删除】
     def delete_button_action(self):
         self.driver.find_element(*self.delete_button_ele).click()
 

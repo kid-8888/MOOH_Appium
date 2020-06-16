@@ -68,6 +68,7 @@ class CaseTest(unittest.TestCase):
         TM.transmit_message()
         TM.get_toast(self.driver)
 
+    # 删除聊天页面的消息
     def test_10_delete(self):
         DM = DeleteMessage(self.driver)
         DM.delete_message()

@@ -85,6 +85,6 @@ class TransmitMessage:
             e.click()
         except:
             pass
-        # assert "转发成功" in
+        
 
 
