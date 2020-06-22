@@ -3,6 +3,7 @@
 from random import randint
 from time import sleep
 
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -75,7 +76,11 @@ class Register:
 
     # 用户名少于6位
     def register_login1(self, un="a1234"):
-        if self.driver.find_element_by_id("com.showfires.im:id/edit_search"):
+        try:
+            flag = self.driver.find_element_by_id("com.showfires.im:id/edit_search")
+        except NoSuchElementException as e:
+            flag = 0
+        if flag:
             LH=LogoutHoom(self.driver)
             LH.logouthoom()
             sleep(2)

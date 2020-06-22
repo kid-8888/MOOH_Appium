@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="705ca91b-e3b9-4395-89f5-cafae30f8014" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CX_Page/Login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CX_Page/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/LogoutPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/LogoutPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/RegisterPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/RegisterPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/StartPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/StartPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/chuanxin.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
