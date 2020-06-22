@@ -25,14 +25,6 @@ class LogoutHoom:
     def setting_logout_action(self):
         self.driver.find_element(*self.setting_logout).click()
 
-    def logouthoom(self):
-        self.skip_mime_action()
-        sleep(2)
-        self.setting_action()
-        sleep(2)
-        self.setting_logout_action()
-        sleep(2)
-
     def always_allow1(self, appium_driver, number=5):
         for i in range(number):
             loc = ("xpath", "//*[@text='确定']")
@@ -41,6 +33,16 @@ class LogoutHoom:
                 e.click()
             except:
                 pass
+
+
+    def logouthoom(self):
+        self.skip_mime_action()
+        sleep(2)
+        self.setting_action()
+        sleep(2)
+        self.setting_logout_action()
+        sleep(2)
+        self.always_allow1(self.driver)
 
 
 

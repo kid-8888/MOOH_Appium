@@ -7,6 +7,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+from page.LogoutPage import LogoutHoom
+
+
 class Register:
     register_button = (By.ID, "com.showfires.im:id/login_register_tv")
     username_enter = (By.ID, "com.showfires.im:id/register_user_name_ed")
@@ -72,24 +75,51 @@ class Register:
 
     # 用户名少于6位
     def register_login1(self, un="a1234"):
-        sleep(2)
-        self.register_button_action()
-        sleep(2)
-        try:
-            self.username_enter_action(un)
-        except NameError as e:
-            return
-        self.username_next_button_action()
-        sleep(2)
+        if self.driver.find_element_by_id("com.showfires.im:id/edit_search"):
+            LH=LogoutHoom(self.driver)
+            LH.logouthoom()
+            sleep(2)
+            self.register_button_action()
+            sleep(2)
+            try:
+                self.username_enter_action(un)
+            except NameError as e:
+                return
+            self.username_next_button_action()
+            sleep(2)
+        else:
+            sleep(2)
+            self.register_button_action()
+            sleep(2)
+            try:
+                self.username_enter_action(un)
+            except NameError as e:
+                return
+            self.username_next_button_action()
+            sleep(2)
 
     # 用户名大于15位
     def register_login2(self, un="a1234512345678"):
-        sleep(2)
-        self.register_button_action()
-        sleep(2)
-        try:
-            self.username_enter_action(un)
-        except NameError as e:
-            return
-        self.username_next_button_action()
-        sleep(2)
+        if self.driver.find_element_by_id("com.showfires.im:id/edit_search"):
+            LH=LogoutHoom(self.driver)
+            LH.logouthoom()
+            sleep(2)
+            self.register_button_action()
+            sleep(2)
+            try:
+                self.username_enter_action(un)
+            except NameError as e:
+                return
+            self.username_next_button_action()
+            sleep(2)
+
+        else:
+            sleep(2)
+            self.register_button_action()
+            sleep(2)
+            try:
+                self.username_enter_action(un)
+            except NameError as e:
+                return
+            self.username_next_button_action()
+            sleep(2)

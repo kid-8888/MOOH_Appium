@@ -1,5 +1,6 @@
 # !/usr/bin/python
 # -*- coding:UTF-8 -*-
+from appium.webdriver.common.touch_action import TouchAction
 
 
 class StartAction:
@@ -25,32 +26,27 @@ class StartAction:
     #
     #
     # # 向上滑动屏幕
-    # def swipe_up(self, n=1, t=500):
+    # def scroll_up(self):
     #     size = self.driver.get_window_size()
-    #     x1 = size['width'] * 0.5
-    #     y1 = size['height'] * 0.75
-    #     y = size['height'] * 0.25
-    #     for i in range(n):
-    #         self.driver.swipe(x1, y1, x1, y, t)
+    #     for i in range(3):
+    #         TouchAction(self.driver) \
+    #             .long_press(x=size['width'] * 0.5, y=size['height'] * 0.8) \
+    #             .move_to(x=size['width'] * 0.5, y=size['height'] * 0.2) \
+    #             .release() \
+    #             .perform()
+
     #
     #
     # # 向上滑动屏幕
-    # def swipe_Down(self, n=1):
+    # def scroll_down(self):
     #     size = self.driver.get_window_size()
-    #     x1 = size['width'] * 0.5
-    #     y1 = size['height'] * 0.25
-    #     y = size['height'] * 0.75
-    #     self.driver.swipe(x1, y1, x1, y)
+    #     for i in range(3):
+    #         TouchAction(self.driver) \
+    #             .long_press(x=size['width'] * 0.5, y=size['height'] * 0.2) \
+    #             .move_to(x=size['width'] * 0.5, y=size['height'] * 0.8) \
+    #             .release() \
+    #             .perform()
 
-    # def swipe_On(self, direction):
-    #     if direction == "up":
-    #         swipe_Up()
-    #     elif direction == "down":
-    #         swipe_Down()
-    #     elif direction == "left":
-    #         swipe_Left()
-    #     else:
-    #         swipe_Right()
 
 
 # if __name__ == '__main__':

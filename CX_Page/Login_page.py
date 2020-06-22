@@ -16,6 +16,9 @@ desired_caps = {
 # 驱动
 driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)
 sleep(5)
+"""
+用户已添加社区，在传信直接登录，使web端产生窗口
+"""
 for un in range(10000014590, 10000014601):
     driver.find_element_by_id("com.chuanxin.im:id/login_phonr_ed").send_keys(un)
     sleep(1)
