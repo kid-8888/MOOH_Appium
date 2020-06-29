@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="705ca91b-e3b9-4395-89f5-cafae30f8014" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/RegisterPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/RegisterPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/DriverPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/DriverPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/DriverPageFirst.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/DriverPageFirst.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for TestCase.CaseTest.test_2_username_unqualified">
+  <component name="RunManager" selected="Python tests.Unittests for TestCase.CaseTest.test_4_username_error">
     <configuration name="RegisterPage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MOOH_Appium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for TestCase.CaseTest.test_10_delete" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for TestCase.CaseTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MOOH_Appium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,7 +96,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestCase.CaseTest.test_10_delete&quot;" />
+      <option name="_new_target" value="&quot;TestCase.CaseTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -113,7 +114,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for TestCase.CaseTest.test_9_transmit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for TestCase.CaseTest.test_4_username_error" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MOOH_Appium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,19 +123,18 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestCase.CaseTest.test_9_transmit&quot;" />
+      <option name="_new_target" value="&quot;TestCase.CaseTest.test_4_username_error&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for TestCase.CaseTest.test_4_username_error" />
         <item itemvalue="Python tests.Unittests for TestCase.CaseTest.test_2_username_unqualified" />
+        <item itemvalue="Python tests.Unittests for TestCase.CaseTest" />
         <item itemvalue="Python.RegisterPage" />
         <item itemvalue="Python.chuanxin" />
-        <item itemvalue="Python tests.Unittests for TestCase.CaseTest.test_10_delete" />
-        <item itemvalue="Python tests.Unittests for TestCase.CaseTest.test_9_transmit" />
       </list>
     </recent_temporary>
   </component>

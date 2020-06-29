@@ -18,4 +18,3 @@ class BaseDriver:
         driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)
         sleep(5)
         return driver
-
