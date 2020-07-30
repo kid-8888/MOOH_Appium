@@ -53,7 +53,7 @@ class Register:
     def skip_button_action(self):
         self.driver.find_element(*self.skip_button).click()
 
-    def register_login(self,un="a12345", pw="a1234567", pw1="a1234567"):
+    def register_login(self, un="a12345", pw="a1234567", pw1="a1234567"):
         self.register_button_action()
         sleep(2)
         self.username_enter_action(un)
@@ -86,45 +86,36 @@ class Register:
             sleep(2)
             self.register_button_action()
             sleep(2)
-            try:
-                self.username_enter_action(un)
-            except NameError as e:
-                return
+            self.username_enter_action(un)
             self.username_next_button_action()
             sleep(2)
         else:
             sleep(2)
             self.register_button_action()
             sleep(2)
-            try:
-                self.username_enter_action(un)
-            except NameError as e:
-                return
+            self.username_enter_action(un)
             self.username_next_button_action()
             sleep(2)
 
     # 用户名大于15位
     def register_login2(self, un="a1234512345678"):
-        if self.driver.find_element_by_id("com.showfires.im:id/edit_search"):
+        try:
+            flag = self.driver.find_element_by_id("com.showfires.im:id/edit_search")
+        except NoSuchElementException as e:
+            flag = 0
+        if flag:
             LH=LogoutHoom(self.driver)
             LH.logouthoom()
             sleep(2)
             self.register_button_action()
             sleep(2)
-            try:
-                self.username_enter_action(un)
-            except NameError as e:
-                return
+            self.username_enter_action(un)
             self.username_next_button_action()
             sleep(2)
-
         else:
             sleep(2)
             self.register_button_action()
             sleep(2)
-            try:
-                self.username_enter_action(un)
-            except NameError as e:
-                return
+            self.username_enter_action(un)
             self.username_next_button_action()
             sleep(2)

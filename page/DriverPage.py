@@ -9,7 +9,7 @@ class BaseDriver:
         desired_caps = {
             "platformName": "Android",
             "automationName": "Uiautomator2",
-            "deviceName": "46FDU19312002596",
+            "deviceName": "43448bf9",
             "appPackage": "com.showfires.im",
             "appActivity": "com.showfires.uesr.activity.SplashActivity",
             "noReset": "true",
