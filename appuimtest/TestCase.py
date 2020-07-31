@@ -78,5 +78,6 @@ class CaseTest(unittest.TestCase):
         NG = NewGroup(self.driver)
         NG.new_group()
 
+
 if __name__ == "__main__":
     unittest.main()
