@@ -3,8 +3,12 @@
 from random import randint
 from time import sleep
 from appium import webdriver
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from appium.webdriver.common.touch_action import TouchAction
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
 from page.ContactsPage import ContactsList
 
 
@@ -34,9 +38,15 @@ class SendMessage:
     more_ele1 = (By.ID, "com.showfires.im:id/send_more_img")
     file_button = (By.ID,  "com.showfires.im:id/select_file")
 
+    # 权限
+    permission = (By.XPATH, "//*[@text='始终允许']")
+
     def __init__(self, appium_driver):
         self.driver = appium_driver
         # self.driver = webdriver.Remote()
+
+    def permission_action(self):
+        self.driver.find_element(*self.permission).click()
 
     # 发送文本
     def send_text_element_action(self):
@@ -52,15 +62,40 @@ class SendMessage:
         sleep(2)
         self.driver.find_element(*self.picture_button).click()
         sleep(2)
-        self.driver.find_element(*self.picture_check).click()
-        sleep(2)
-        self.driver.find_element(*self.picture_tv_ok).click()
+        try:
+            flag = self.driver.find_element_by_xpath("//*[@text='始终允许']")
+        except NoSuchElementException as e:
+            flag = 0
+        if flag:
+            self.permission_action()
+            sleep(2)
+            self.permission_action()
+            sleep(2)
+            self.driver.find_element(*self.picture_check).click()
+            sleep(2)
+            self.driver.find_element(*self.picture_tv_ok).click()
+        else:
+            self.driver.find_element(*self.picture_check).click()
+            sleep(2)
+            self.driver.find_element(*self.picture_tv_ok).click()
 
     # 发送语音
     def send_voice_element_action(self):
         self.driver.find_element(*self.send_voice_element).click()
-        ele = self.driver.find_element(*self.send_voice_button_ele)
-        TouchAction(self.driver).long_press(ele).wait(8000).release().perform()
+        try:
+            flag = self.driver.find_element_by_xpath("//*[@text='始终允许']")
+        except NoSuchElementException as e:
+            flag = 0
+        if flag:
+            self.permission_action()
+            sleep(2)
+            self.permission_action()
+            sleep(2)
+            ele = self.driver.find_element(*self.send_voice_button_ele)
+            TouchAction(self.driver).long_press(ele).wait(8000).release().perform()
+        else:
+            ele = self.driver.find_element(*self.send_voice_button_ele)
+            TouchAction(self.driver).long_press(ele).wait(8000).release().perform()
 
     # 发送文件
     def send_file_element_action(self):
@@ -77,5 +112,5 @@ class SendMessage:
         self.send_msg_bt_action()
         sleep(1)
         self.send_picture_element_action()
-        sleep(2)
-        self.send_voice_element_action()
+        # sleep(2)
+        # self.send_voice_element_action()
